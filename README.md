@@ -10,13 +10,13 @@ This analysis will address the following:
 ## Part 1: Linear Regression to Predict MPG
 ![image]()
 
-- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? </br>
+** - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? </br> **
 There are two variables from the data set which provide a non-random amount of variance to the MPG values: vehicle length and ground clearance. The other variables: vehicle weight, spoiler andles, and AWD do not appear to have an effect on the MPG for the MechaCar. 
 
-- Is the slope of the linear model considered to be zero? Why or why not? </br>
+** - Is the slope of the linear model considered to be zero? Why or why not? </br> **
 If the p-value, or otherwise known as the significance level is found to be below 0.05, then we can conclude the slope of the linear model to have a slope that is not zero. The p-value for this data set is 5.35e-11, which indicates there is sufficient evidence to reject our null hypothesis and the slope of this linear model is not zero.
 
-- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? </br>
+** - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? </br> **
 When determining if the linear model is effective, we can look at the Adjusted R-squared value. The closer the Adjusted R-squared value is to 1, the better the linear model is at prectiting effectiveness. In this analysis, our Adjusted R-squared is 0.6825. This means our linear model is effective at correctly predicting the MPG of MechaCar 68.25% of the time. Statistically speaking, we can say this model is effective at predicting the MPG of the MechaCar. Further testing could be done by elliminating the variables that do not appear to effect the MPG of the vehicle and look at the predictability of the new linear model with only vehicle length and ground clearance taken into account. 
 
 ## Part 2: Summary Statistics on Suspension Coils
