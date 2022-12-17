@@ -21,8 +21,14 @@ When determining if the linear model is effective, we can look at the Adjusted R
 
 ## Part 2: Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must **not exceed 100 pounds per square inch**. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+![image]()
+
 **All manufacturing lots in total** </br>
 The variance for the suspension coils accross all lots is 62.29356 pounds per square inch. This variance is well below the 100 pounds per square inch requirement and therefore meet the design specifications. 
+
+![image]()
+
 **Looking into each manufacturing lot individually** </br>
 Lots 1 and 2 each have a variance of 0.9795918 and 7.4693878, respectively. Therefore, both lots 1 and 2 are far below the max varience level of 100 pounds per square inch. Lot 3 however, has a varience level of 170.2861224, which exceeds the design specfications needed. 
 
