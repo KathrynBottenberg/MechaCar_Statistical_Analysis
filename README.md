@@ -33,7 +33,15 @@ The variance for the suspension coils accross all lots is 62.29356 pounds per sq
 Lots 1 and 2 each have a variance of 0.9795918 and 7.4693878, respectively. Therefore, both lots 1 and 2 are far below the max varience level of 100 pounds per square inch. Lot 3 however, has a varience level of 170.2861224, which exceeds the design specfications needed. 
 
 ## Part 3: T-Tests on Suspension Coils
-briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+First, we conducted a t-test on the suspetion coils dataset on all three lots together to see if there is a statistical difference between the mean of the dataset and the presumed population mean of 1500. Below are the results of the t-test:
+![image]()
+From the t-test, we can see the mean of the sample from all three lots together is 1,497.507 and the p-value is 0.06028. Because the p-value is about 0.05, we can fail to reject the null hypothesis and conclude the mean of the three manufacturing lots together is statistically similar to the presumed population mean of 1500.
+
+Next, we will perform the same t-testing on each individual manufacturing lot against the population mean of 1500. Below are the results from all three tests sumarries:
+![image]()
+- Lot 1 has a sample mean of 1,500 and a p-value of 1. This concludes that Lot 1 is 100% identical to the population mean of 1,500. We can fail to reject the null hypothesis and conclude that ***Lot 1 is statistically similar to the population mean.***
+- Lot 2 has a sample mean of 1,500.2 and a p-value of 0.6072. This concludes that Lot 2 is 60.72% similar to the population mean. We can fail to reject the null hypothesis and conclude that ***Lot 2 is statistically similar to the population mean.*** 
+- Lot 3 has a sample mean of 1,496.14 and a p-value of 0.04168. This concludes that Lot 3 is about 4.1% similar to the population mean. We can reject the null hypothesis and conclude that ***Lot 3 is not statisitcally simiar to the population mean.***
 
 ## Part 4: Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
