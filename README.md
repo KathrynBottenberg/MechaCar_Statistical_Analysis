@@ -40,7 +40,9 @@ From the t-test, we can see the mean of the sample from all three lots together 
 Next, we will perform the same t-testing on each individual manufacturing lot against the population mean of 1500. Below are the results from all three tests sumarries:
 ![image]()
 - Lot 1 has a sample mean of 1,500 and a p-value of 1. This concludes that Lot 1 is 100% identical to the population mean of 1,500. We can fail to reject the null hypothesis and conclude that ***Lot 1 is statistically similar to the population mean.***
+![image]()
 - Lot 2 has a sample mean of 1,500.2 and a p-value of 0.6072. This concludes that Lot 2 is 60.72% similar to the population mean. We can fail to reject the null hypothesis and conclude that ***Lot 2 is statistically similar to the population mean.*** 
+![image]()
 - Lot 3 has a sample mean of 1,496.14 and a p-value of 0.04168. This concludes that Lot 3 is about 4.1% similar to the population mean. We can reject the null hypothesis and conclude that ***Lot 3 is not statisitcally simiar to the population mean.***
 
 ## Part 4: Study Design: MechaCar vs Competition
