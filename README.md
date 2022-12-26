@@ -48,13 +48,15 @@ Next, we will perform the same t-testing on each individual manufacturing lot ag
 ## Part 4: Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-In your description, address the following questions:
-
 - What metric or metrics are you going to test?
+cost, city/highway MPG, horsepower, annual maintainance cost, safety rating, resale value after 5 years, average lifespan of vehicle, and carbon footprint.
 
 - What is the null hypothesis or alternative hypothesis?
+null hypothesis (Ho): MechaCar is the best priced vehicle in its class based on its metrics.
+alternative hypothesis (Ha): MechaCar is NOT the best priced vehicle in its class based on its metrics.
 
 - What statistical test would you use to test the hypothesis? And why?
+The best statistical test would be to use a mulitple linear regression model to determine the metrics with the highest correlation for MechaCar and its three highest competetors. From this test we can determine which metrics support this claim for the MechaCar being the best price to its competion. The cost of the vehicle would be the independent variable to test against all other metrics as the dependent variable. If there is a high correlation across across metrics, we can determine it is therefore a better priced vehicle when compared to competitors.
 
 - What data is needed to run the statistical test?
-
+Data needs to be collected from the top 3 major competetors for the past 5 years for all metrics: cost, city/highway MPG,  horsepower, annual maintainance cost, safety rating, resale value after 5 years, average lifespan of vehicle, and carbon footprint.
